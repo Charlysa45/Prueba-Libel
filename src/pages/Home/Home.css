@@ -1,0 +1,33 @@
+.font-purple{
+    color: #1e266d;
+}
+
+.services-cards{
+    margin: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.services-cards-card{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    /* border-bottom: 4px solid #1e266d; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.services-cards-card img{
+    width: 40px;
+}
+
+.services-cards-card-text{
+    width: 180px;
+    font-size: 15px;
+}
+
+.about-button{
+    background-color: #fff;
+    border: 1px solid #0d6efd;
+    border-radius: 20px;
+}
