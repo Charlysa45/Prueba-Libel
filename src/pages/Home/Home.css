@@ -4,16 +4,16 @@
 
 .services-cards{
     margin: auto;
-    width: 1000px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    max-width: 1100px;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 25px;
 }
 
 .services-cards-card{
     border: 1px solid rgb(219, 219, 219);
     border-radius: 10px;
-    /* border-bottom: 4px solid #1e266d; */
+    width: 250px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -28,6 +28,6 @@
 
 .about-button{
     background-color: #fff;
-    border: 1px solid #0d6efd;
+    border: 1px solid #1e266d;
     border-radius: 20px;
 }
